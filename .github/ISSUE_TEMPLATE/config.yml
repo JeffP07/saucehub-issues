@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SauceHub Forum
+    url: https://saucehub.app/forum
+    about: For general questions and discussion, use the forum instead of opening an issue.

@@ -1,0 +1,55 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a new request, please [search existing issues](../../issues) to see if someone has already suggested this.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the situation or frustration that led to this request. Focus on the problem, not the solution.
+      placeholder: "Example: I can't easily find all the sauces I've tried that landed above 8/10, so I lose track of my favorites."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or change you'd like to see. How would it work from a user's perspective?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Are there other ways you've tried to work around this, or other approaches that could solve it?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of SauceHub
+      description: Which part of the app does this relate to?
+      options:
+        - Sauce catalog & discovery
+        - Reviews & ratings
+        - Lists & collections
+        - Recipes
+        - Account & profile
+        - Search & filtering
+        - Notifications
+        - Mobile / responsive experience
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that would help us understand the request — screenshots, mockups, examples from other apps, etc.
