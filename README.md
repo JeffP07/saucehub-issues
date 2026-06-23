@@ -41,7 +41,7 @@ It does **not** cover:
 | Label | Meaning |
 |---|---|
 | `bug` | Something isn't working correctly |
-| `enhancement` | New functionality request |
+| `feature-request` | New functionality request |
 | `suggestion` | Quick idea, UI tweak, or content suggestion |
 | `question` | Needs clarification before triaging |
 | `duplicate` | Already tracked elsewhere |

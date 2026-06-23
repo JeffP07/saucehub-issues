@@ -1,0 +1,27 @@
+- name: bug
+  color: "d73a4a"
+  description: Something isn't working correctly
+
+- name: feature-request
+  color: "a2eeef"
+  description: New functionality request
+
+- name: suggestion
+  color: "e4e669"
+  description: Quick idea, UI tweak, or content suggestion
+
+- name: question
+  color: "d876e3"
+  description: Needs clarification before triaging
+
+- name: duplicate
+  color: "cfd3d7"
+  description: Already tracked elsewhere
+
+- name: wontfix
+  color: "ffffff"
+  description: Out of scope or intentional behavior
+
+- name: invalid
+  color: "e4e4e4"
+  description: Not a valid bug report or feature request
