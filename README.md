@@ -42,6 +42,7 @@ It does **not** cover:
 |---|---|
 | `bug` | Something isn't working correctly |
 | `enhancement` | New functionality request |
+| `suggestion` | Quick idea, UI tweak, or content suggestion |
 | `question` | Needs clarification before triaging |
 | `duplicate` | Already tracked elsewhere |
 | `wontfix` | Out of scope or intentional behavior |

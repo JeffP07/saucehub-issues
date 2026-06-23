@@ -1,0 +1,41 @@
+name: Suggestion
+description: Share a quick idea, UI tweak, or content suggestion
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a quick idea that doesn't quite rise to the level of a full feature request? Share it here. [Search existing suggestions](../../issues) first to avoid duplicates.
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+      description: What would you like to see changed or added? Keep it as concrete as you can.
+      placeholder: "Example: Show the Scoville rating next to the sauce name in list view so I don't have to open each one."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of SauceHub
+      description: Which part of the app does this relate to?
+      options:
+        - Sauce catalog & discovery
+        - Reviews & ratings
+        - Lists & collections
+        - Recipes
+        - Account & profile
+        - Search & filtering
+        - Notifications
+        - Mobile / responsive experience
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, mockups, or examples that help illustrate the idea — optional but welcome.
